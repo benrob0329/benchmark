@@ -10,11 +10,11 @@ local calpi = function()
 			operator = '+'
 		end
 	end
-	print(mypi)
 end
 
 start = os.clock()
 calpi()
 stop = os.clock()
 
+print(stop - start)
 return (stop - start)

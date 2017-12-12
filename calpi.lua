@@ -16,5 +16,4 @@ start = os.clock()
 calpi()
 stop = os.clock()
 
-print(stop - start)
 return (stop - start)
